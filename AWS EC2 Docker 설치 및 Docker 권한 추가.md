@@ -73,6 +73,7 @@ ubuntu : ubuntu adm cdrom sudo dip lxd
 ```
 
 이 결과는 ubuntu 사용자 계정이 다음 그룹들에 속해 있음을 보여줍니다.   
+
 **1. ubuntu (디폴트 그룹)**
 * 사용자의 디폴트 그룹으로, 파일 생성 시 디폴트로 소속되는 그룹입니다.
 * ubuntu 사용자의 홈 디렉토리 /home/ubuntu와 같은 파일의 소유 그룹도 보통 이 그룹입니다.
@@ -92,6 +93,7 @@ ubuntu : ubuntu adm cdrom sudo dip lxd
 **5. dip (네트워크 설정 그룹)**
 * **Dial-up IP 연결 권한** 을 가진 그룹입니다.
 * 예전에는 모뎀 네트워크 연결을 설정할 때 사용되었지만, 오늘날에는 드물게 사용됩니다.
+
 **6. lxd (LXD 컨테이너 관리 그룹)**
 * **LXD 컨테이너 관리 권한** 을 가진 그룹입니다.
 * 이 그룹에 속하면 LXD(Linux Containers Daemon)를 사용해 컨테이너를 생성하고 관리할 수 있습니다.
