@@ -20,7 +20,7 @@ Docker의 GPG 키란?
 Docker의 GPG 키는 Docker 저장소에서 제공하는 소프트웨어 패키지의 출저와 무결성을 보장하기 위해 사용되는 디지털 서명 키입니다. GPG 키는 GNU Privacy   
 Guard(GPG)를 기반으로 한 암호화 기술로, 패키지 관리자가 패키지의 신뢰성을 확인하는 데 사용합니다.
 ```
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+$ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 ```
 
 명령어 구성
