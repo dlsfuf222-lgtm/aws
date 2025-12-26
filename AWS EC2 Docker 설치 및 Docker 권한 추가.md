@@ -72,8 +72,8 @@ $ sudo groups $USER
 ubuntu : ubuntu adm cdrom sudo dip lxd
 ```
 
-이 결과는 ubuntu 사용자 계정이 다음 그룹들에 속해 있음을 보여줍니다.
-**1. ubuntu (디포릍 그룹)**
+이 결과는 ubuntu 사용자 계정이 다음 그룹들에 속해 있음을 보여줍니다.   
+**1. ubuntu (디폴트 그룹)**
 * 사용자의 디폴트 그룹으로, 파일 생성 시 디폴트로 소속되는 그룹입니다.
 * ubuntu 사용자의 홈 디렉토리 /home/ubuntu와 같은 파일의 소유 그룹도 보통 이 그룹입니다.
 
