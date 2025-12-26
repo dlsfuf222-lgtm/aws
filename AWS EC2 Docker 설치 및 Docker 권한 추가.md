@@ -15,7 +15,7 @@ $ sudo apt install apt-transport-https ca-certificates curl software-properties-
 * **curl**: 커맨드 라인 기반 파일 전송 도구로, HTTP, HTTPS, FTP 등의 프로토콜을 지원.
 * **software-properties-common**: PPA(Personal Package Archive)를 쉽게 관리할 수 잇는 유틸맅. 외부 소프트웨어 저장소를 추가하거나 관리할 때 필요한 명령(add-apt-repository)을 제공.
 
-**3. docker repository 접은을 위한 gpg 키 설정**
+**3. docker repository 접은을 위한 gpg 키 설정**   
 Docker의 GPG 키란?   
 Docker의 GPG 키는 Docker 저장소에서 제공하는 소프트웨어 패키지의 출저와 무결성을 보장하기 위해 사용되는 디지털 서명 키입니다. GPG 키는 GNU Privacy   
 Guard(GPG)를 기반으로 한 암호화 기술로, 패키지 관리자가 패키지의 신뢰성을 확인하는 데 사용합니다.
