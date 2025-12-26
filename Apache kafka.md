@@ -62,9 +62,9 @@ source ~/.bashrc
 
 이렇게 하면 AWS의 Ubuntu EC2 인스턴스에 Java를 설치하고 설정하는 방법을 완료할 수 있습니다.
 
-[kafka 다운로드](https://downloads.apache.org/kafka/)
 <img width="655" height="441" alt="kafka 다운로드" src="https://github.com/user-attachments/assets/4e208360-c58a-4880-b255-bef41cec7796" />
 <img width="677" height="871" alt="다운로드" src="https://github.com/user-attachments/assets/00c216c0-7559-42a6-a1de-537e603dee36" />
+
 wget 커맨들 아파치 카프카를 다운로드 받습니다.
 ```
 wget https://downloads.apache.org/kafka/3.7.2/kafka_2.12-3.7.2.tgz
