@@ -89,7 +89,8 @@ Kafka의 heap memory는 디폴트로 Kafka = 1GByte, Zookeeper=512MByte입니다
 export KAFKA_HEAP_OPTS="-Xms300m -Xmx300m"
 ```
 
-![Uploading Kafka Zookeeper 메모리 재설정.png…]()
+<img width="965" height="383" alt="Kafka Zookeeper 메모리 재설정" src="https://github.com/user-attachments/assets/861f32a8-4257-4494-b7a7-294a2a545842" />
+
 ※위 이미지 설정 대신에 300Mbyte로 수정
 
 KAFKA_HEAP_OPTS환경 변수를 시스템에 등록합니다.
