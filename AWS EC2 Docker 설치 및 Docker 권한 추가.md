@@ -50,7 +50,7 @@ $ sudo apt install docker-ce
 $ docker --version
 ```
 
-# Docker 권한 추가
+## Docker 권한 추가
 **1. user id 확인**
 
 다음 커맨드에서 **ubuntu(@앞에 위치)** 는 현재 AWS EC2 인스턴스에 접속하려는 user id 임.
@@ -61,13 +61,13 @@ $ ssh -i ./development/Tools/aws_ec2_keys/kafkaserverkey.pem ubuntu@3.38.108.0
 ```
 $ sudo groups $USER
 ```
-## 명령어 구성
+### 명령어 구성
 1. **sudo** : * 관리자 권한으로 명령어를 실행합니다. groups 명령을 실행하는 데 관리자 권한이 필요한 것은 아니지만, 습관적으로 sudo를 사용한 것일 수도 있습니다.
 2. **groups** : * 현재 사용자가 속한 **모든 그룹** 을 확인하는 명령어 입니다.
 3. **$USER** : * 현재 로그인한 사용자의 사용자 이름을 참조하는 환경 변수입니다. 여기서는 로그인한 사용자 계정이 ubuntu이므로 $USER는 ubuntu를 의미합니다.
 
 결과적으로, sudo groups $USER는 **현재 로그인한 사용자가 속한 그룹을 관리자 권한으로 확인** 하는 명령어입니다.
-# 출력 설명
+## 출력 설명
 ```
 ubuntu : ubuntu adm cdrom sudo dip lxd
 ```
